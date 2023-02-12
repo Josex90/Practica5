@@ -1,0 +1,50 @@
+
+      .form-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 30%;
+        margin: 0 auto;
+        padding: 40px;
+        border: 14px solid lawngreen;
+        border-radius: 10px;
+      }
+
+      h1 {
+        margin-bottom: 50px;
+        font-size: 24px;
+        font-weight: bold;
+        text-align: center;
+        color: lawngreen;
+      }
+
+      input[type="text"],
+      input[type="email"],
+      select,
+      textarea {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 20px;
+        border-radius: 5px;
+        border: 1px solid lightgray;
+        font-size: 16px;
+      }
+
+      input[type="submit"] {
+        padding: 10px 20px;
+        background-color: lightblue;
+        color: white;
+        border-radius: 5px;
+        border: none;
+        cursor: pointer;
+        font-size: 16px;
+        font-weight: bold;
+      }
+
+      .error-message {
+        color: red;
+        font-size: 14px;
+        margin-bottom: 20px;
+      }
+   
+      
